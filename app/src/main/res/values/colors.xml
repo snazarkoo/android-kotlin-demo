@@ -6,4 +6,5 @@
     <color name="screenBackground">#ffee58</color>
     <color name="screenBackground2">#26C6DA</color>
     <color name="buttonBackground">#BBDEFB</color>
+    <color name="bkg_card">#8C9EFF</color>
 </resources>

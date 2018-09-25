@@ -49,4 +49,10 @@ class MainActivity : AppCompatActivity() {
         // Start the new activity.
         startActivity(randomIntent)
     }
+
+    fun openDemoList(view: View) {
+        val randomIntent = Intent(this, DemoList::class.java)
+
+        startActivity(randomIntent)
+    }
 }
