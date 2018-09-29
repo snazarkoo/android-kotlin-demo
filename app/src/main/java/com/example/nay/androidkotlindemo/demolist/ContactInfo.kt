@@ -1,4 +1,4 @@
-package com.example.nay.androidkotlindemo
+package com.example.nay.androidkotlindemo.demolist
 
 class ContactInfo {
     var name: String? = null

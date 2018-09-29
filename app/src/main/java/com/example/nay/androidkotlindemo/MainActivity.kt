@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.nay.androidkotlindemo.demolist.DemoListActivity
 import kotlinx.android.synthetic.main.activity_main.textView
 
 class MainActivity : AppCompatActivity() {
@@ -51,7 +52,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openDemoList(view: View) {
-        val randomIntent = Intent(this, DemoList::class.java)
+        val randomIntent = Intent(this, DemoListActivity::class.java)
 
         startActivity(randomIntent)
     }
